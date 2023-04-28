@@ -239,7 +239,7 @@ namespace Sis_Leitor_Pessoal
         {
             foreach (Control pnl in pobj_Form.Controls)
             {
-                if (pnl is Panel && pnl.Name == "pnl_Botao")
+                if (pnl is Panel && pnl.Name == "pnl_Botao" || pnl is Button && pnl.Tag == "btn")
                 {
                     foreach (Control ctrl in pnl.Controls)
                     {
@@ -247,27 +247,7 @@ namespace Sis_Leitor_Pessoal
                         {
                             case 1:
                                 {
-                                    if (ctrl.Name == "btn_Novo")
-                                    {
-                                        ctrl.Enabled = true;
-                                    }
-
-                                    if (ctrl.Name == "btn_Alterar")
-                                    {
-                                        ctrl.Enabled = false;
-                                    }
-
-                                    if (ctrl.Name == "btn_Excluir")
-                                    {
-                                        ctrl.Enabled = false;
-                                    }
-
-                                    if (ctrl.Name == "btn_Cancelar")
-                                    {
-                                        ctrl.Enabled = false;
-                                    }
-
-                                    if (ctrl.Name == "btn_Confirmar")
+                                    if (ctrl.Name == "btn_Cadastrar")
                                     {
                                         ctrl.Enabled = false;
                                     }
@@ -276,30 +256,11 @@ namespace Sis_Leitor_Pessoal
 
                             case 2:
                                 {
-                                    if (ctrl.Name == "btn_Novo")
+                                    if (ctrl.Name == "btn_Cadastrar")
                                     {
                                         ctrl.Enabled = true;
                                     }
 
-                                    if (ctrl.Name == "btn_Alterar")
-                                    {
-                                        ctrl.Enabled = true;
-                                    }
-
-                                    if (ctrl.Name == "btn_Excluir")
-                                    {
-                                        ctrl.Enabled = true;
-                                    }
-
-                                    if (ctrl.Name == "btn_Cancelar")
-                                    {
-                                        ctrl.Enabled = false;
-                                    }
-
-                                    if (ctrl.Name == "btn_Confirmar")
-                                    {
-                                        ctrl.Enabled = false;
-                                    }
                                     break;
                                 }
 

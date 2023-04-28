@@ -8,6 +8,7 @@ using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Sis_Leitor_Pessoal
 {
@@ -16,12 +17,12 @@ namespace Sis_Leitor_Pessoal
         FuncGeral obj_FuncGeral = new FuncGeral();
         public Usuario obj_Usuario_Atual = new Usuario();
 
-
         public Frm_Cadastro()
         {
             InitializeComponent();
             obj_FuncGeral.HabilitaTela(this, true);
-            obj_FuncGeral.StatusBtn(this, 1); //Status do botão Cadastrar
+            obj_FuncGeral.StatusBtn(this, 1);
+            
         }
 
         /****************************************************************************************
@@ -53,7 +54,6 @@ namespace Sis_Leitor_Pessoal
 
                 obj_Usuario_Atual.Email_Usuario = tbox_Email_Usuario.Text;
 
-                //Não está chegando o email pelo findbymail
                 if (obj_BDUsuario.ExistByMail(obj_Usuario_Atual))
                 {
                     MessageBox.Show("O Email " + obj_Usuario_Atual.Email_Usuario + " já foi Cadastrado!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -70,6 +70,43 @@ namespace Sis_Leitor_Pessoal
             {
                 MessageBox.Show("Preencha todas as informações para cadastrar!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+        }
+
+        private void tbox_Senha_Usuario_TextChanged(object sender, EventArgs e)
+        {
+            if (tbox_Nm_Usuario.Text.Length > 0 && tbox_Email_Usuario.Text.Length > 0 && tbox_Senha_Usuario.Text.Length > 0)
+            {
+                obj_FuncGeral.StatusBtn(this, 2);
+            }
+            else
+            {
+                obj_FuncGeral.StatusBtn(this, 1);
+            }
+        }
+
+        private void tbox_Email_Usuario_TextChanged(object sender, EventArgs e)
+        {
+            if (tbox_Nm_Usuario.Text.Length > 0 && tbox_Email_Usuario.Text.Length > 0 && tbox_Senha_Usuario.Text.Length > 0)
+            {
+                obj_FuncGeral.StatusBtn(this, 2);
+            }
+            else
+            {
+                obj_FuncGeral.StatusBtn(this, 1);
+            }
+        }
+
+        private void tbox_Nm_Usuario_TextChanged(object sender, EventArgs e)
+        {
+            if (tbox_Nm_Usuario.Text.Length > 0 && tbox_Email_Usuario.Text.Length > 0 && tbox_Senha_Usuario.Text.Length > 0)
+            {
+                obj_FuncGeral.StatusBtn(this, 2);
+            }
+            else
+            {
+                obj_FuncGeral.StatusBtn(this, 1);
+            }
+
         }
     }
 }

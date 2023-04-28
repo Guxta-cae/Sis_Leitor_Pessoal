@@ -1,3 +1,4 @@
+using Microsoft.Identity.Client;
 using System.Data.SqlClient;
 using System.Speech.Synthesis;
 using System.Text;
@@ -8,6 +9,7 @@ namespace Sis_Leitor_Pessoal
     {
 
         SpeechSynthesizer Sintetizador = new SpeechSynthesizer();
+        public Usuario obj_Usuario_Atual = new Usuario();
 
         public Frm_Principal()
         {

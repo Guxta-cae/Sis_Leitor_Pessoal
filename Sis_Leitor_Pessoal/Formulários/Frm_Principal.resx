@@ -57,31 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btn_Velocidade.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAK0AAACtAVRO1jAAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAABmElEQVRIS7XTTShEURTA8Wd8hCwQEwulKZtZWMxmIkUs5GNhP4osWVCyNysrZeNjIXsrCxaylJUN
-        WShF2fhYKcpHPhr/M+7lvue8CTNO/eqec88713PfeJlM5l+pxUJSi4WkFv+CqEfNt3qw4CI6MBRiABHT
-        N4YnPCDlm+EmQUQ/RkOkUGL6jiALse+b4SY/QRShE/IW8oaSr8AesGD6WhFXh4Qh2nEMO0ycYQaTkDer
-        QhqvOIfXi+0cus3wJO4gySE2cG1y8YYDyJ7ktxhU/1INsWYeXEYpGnBvakGniGefCw4KQ1Qj4eSLsANf
-        0IM+tKHis88ufoOI4Rn2gCWtT3wtPi5nE9o9iLTpK4b02eFyL1E7J0gt5kKsmsGWHJb9wWnUokU0Qb6K
-        LcxiB3bwpbPeQ4s6QytaRByPsIOEfI7ziGAYF5C6fFExZYY3gqkQUdRhHHOYRnNggNyd/betu3tm30ug
-        K0R58AENUYkrSJL07blJPogJc8Cur+4m+SDKcIIbX91N8kXUotFXc5P/oBYLSS0WTsZ7B5Ui9xiUhlzm
-        AAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="btn_Volume.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAQ8AAAEPATse2T0AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAABLklEQVRIS83UMUoDQRTG8WkUBAURPYBVwEoQBAkBLQRtLERI7xGsjI0ewcIDeIVAgmhrY2lrZ6Wi
-        ttbr/5MX2R3eRIkz4IMfvPdtdmfJzm6oqqooN8zJDXNywxRq2cvHccMYtYEbaFjxfpPihiPUOq7whmM8
-        YdX7bYofhrCGAd7Rw6zlj/hxAWq61ocptLGJXfShC59gLjrxtwtco2t9uMUD7vGBCzQuPEIlF6COsG+9
-        bvYFCxqUzNuBO+zUT6yjGguoR9v6bbxi0eZLnKnRNOkCe9CDn7FZG+LQ+i6GajRNuoCen3ZYx2bd8bn1
-        LTyr0fRvFyj+F+kN37I++ZBzbdNTHFjf2KZlX7T44Ff490/F0ndfPxCjynzsYlSZz3WMann5OG6Ykxvm
-        5Ib5VOET11waHTsHK5cAAAAASUVORK5CYII=
-</value>
-  </data>
 </root>

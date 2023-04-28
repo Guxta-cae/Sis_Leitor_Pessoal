@@ -62,6 +62,7 @@
             this.btn_Cadastrar.Name = "btn_Cadastrar";
             this.btn_Cadastrar.Size = new System.Drawing.Size(105, 35);
             this.btn_Cadastrar.TabIndex = 2;
+            this.btn_Cadastrar.Tag = "btn";
             this.btn_Cadastrar.Text = "Cadastrar";
             this.btn_Cadastrar.UseVisualStyleBackColor = false;
             this.btn_Cadastrar.Click += new System.EventHandler(this.btn_Cadastrar_Click);
@@ -107,6 +108,7 @@
             this.tbox_Nm_Usuario.Name = "tbox_Nm_Usuario";
             this.tbox_Nm_Usuario.Size = new System.Drawing.Size(166, 23);
             this.tbox_Nm_Usuario.TabIndex = 5;
+            this.tbox_Nm_Usuario.TextChanged += new System.EventHandler(this.tbox_Nm_Usuario_TextChanged);
             // 
             // label4
             // 
@@ -125,6 +127,7 @@
             this.tbox_Senha_Usuario.Size = new System.Drawing.Size(166, 23);
             this.tbox_Senha_Usuario.TabIndex = 3;
             this.tbox_Senha_Usuario.UseSystemPasswordChar = true;
+            this.tbox_Senha_Usuario.TextChanged += new System.EventHandler(this.tbox_Senha_Usuario_TextChanged);
             // 
             // tbox_Email_Usuario
             // 
@@ -132,6 +135,7 @@
             this.tbox_Email_Usuario.Name = "tbox_Email_Usuario";
             this.tbox_Email_Usuario.Size = new System.Drawing.Size(166, 23);
             this.tbox_Email_Usuario.TabIndex = 2;
+            this.tbox_Email_Usuario.TextChanged += new System.EventHandler(this.tbox_Email_Usuario_TextChanged);
             // 
             // label3
             // 
